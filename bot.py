@@ -69,4 +69,4 @@ async def 확인(ctx, 입력값: str):
         await ctx.send(f"{ctx.author.mention}, CAPTCHA가 일치하지 않습니다. 다시 시도하세요.")
 
 # 봇 실행 (토큰 입력)
-bot.run("MTMxMzQyNTk2OTgyNTk3MjI5NQ.GywuYY.c9OLm8VM4hu_1nKSuyj_9SqYx5MKTNMcjtA1Wk")  # 실제 봇 토큰을 입력하세요
+bot.run("")  # 실제 봇 토큰을 입력하세요
