@@ -67,6 +67,6 @@ async def 확인(ctx, 입력값: str):
         del captcha_codes[ctx.author.id]  # 인증 완료 후 삭제
     else:
         await ctx.send(f"{ctx.author.mention}, CAPTCHA가 일치하지 않습니다. 다시 시도하세요.")
-
+access_token = os.environ ["BOT_TOKEN"]
 # 봇 실행 (토큰 입력)
-bot.run("")  # 실제 봇 토큰을 입력하세요
+bot.run(access_token)  # 실제 봇 토큰을 입력하세요
